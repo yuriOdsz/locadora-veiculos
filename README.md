@@ -204,10 +204,6 @@ LocadoraWebSA/
 
 Desenvolvido como projeto acadêmico/profissional de gerenciamento web.
 
-## 📄 Licença
-
-[Incluir informação de licença se aplicável]
-
 ## 🤝 Contribuição
 
 Para contribuir, por favor:
