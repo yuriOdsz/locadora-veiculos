@@ -1,0 +1,159 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+}
+
+body {
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    font-weight:200;
+    font-size: 12px;
+    line-height:2px;
+    color:#777;
+    background:#e3e7e9;
+}
+
+.container {
+    max-width:800px;
+    width:100%;
+    margin:0 auto;
+    height: 750px;
+    position:relative;
+}
+
+#locadora {
+    background:#e3e7e9;
+    height: 700px;;
+    padding:2px;
+    margin:2px 0;
+}
+
+#locadora h3 {
+	color: rgb(5, 2, 0);
+	display: block;
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+}
+
+#locadora h4 {
+	color: rgb(5, 2, 0);
+	display: block;
+	font-size: 15px;
+	font-weight: 200;
+	text-align: left;
+}
+
+#locadora label {
+	color: rgb(5, 2, 0);
+	margin:5px 0 1px;
+	display:block;
+	font-size:13px;
+	font-weight: bold;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 1px;
+	min-width: 100%;
+	padding: 2px;
+	width: 100%;
+}
+
+#locadora input[type="text"] {
+	width:100%;
+	border:1px solid rgb(59, 54, 54);
+	background:rgb(240, 243, 240);
+	margin:0 0 1px;
+	padding:1px;
+}
+
+#locadora input[type="text"]:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid rgb(34, 33, 33);
+}
+
+#locadora input:focus {
+	outline:0;
+	border:1px solid rgb(53, 52, 52);
+}
+::-webkit-input-placeholder {
+ color:rgb(167, 7, 7);
+}
+:-moz-placeholder {
+ color:rgb(167, 7, 7);
+}
+::-moz-placeholder {
+ color:rgb(167, 7, 7);
+}
+:-ms-input-placeholder {
+ color:rgb(167, 7, 7);
+}
+
+.cabecalho {
+  font-size: 13px;
+  align-content: center;
+  color: rgb(23, 3, 94);
+  font-weight: bold;
+  width: 100%;
+  padding: 2px;
+}
+
+/*=============================================================================*/
+/*     DEFINIÇÃO DAS PROPORÇÕES DAS JANELAS DE DADOS    (ORIGINAL)             */
+/*=============================================================================*/
+
+/*                     CLIENTE          */
+.codcliente {
+    width: 8%;
+}
+.cpfcliente {
+    width: 12%;
+}
+
+.nomecliente {
+    width: 60%;    
+}
+
+.emailcliente {
+    width: 87%;
+}
+.nrcartao {
+    width: 18%;
+}
+
+/*         TIPO PAGAMENTO           */
+
+.codtipopagamento {
+    width: 5%;
+}
+
+.desctipopagamento {
+    width: 24%;
+}
+
+/*           VEICULO                */
+.placaveiculo{
+    width: 8%;
+}
+.marcaveiculo{
+    width: 25%;
+}
+.modeloveiculo{
+    width: 25%;
+}
+.kmveiculo{
+    width: 25%;
+}
+
+/*           LOCACAO                */
+.codtipopagamento {
+    width: 5%;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">                  
+        <link rel="stylesheet" href="styles/menustyle.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>LOCADORA DE VEÍCULOS</title> 
+    </head>
+            
+    <style>
+    .main iframe {
+        border: none;
+        position: absolute;
+        margin-top: 12px;
+        width:  100%;
+        height: 85%;
+    }
+    #centro {
+        width:100px;
+        height:100px;
+    }
+    </style>
+    
+    <body>
+        <!-- ESTRUTURA DO MENU -->
+        <!-- CADASTROS -->
+        <div class="topnav" id="myTopnav">  
+            <div class="dropdown">
+                <button class="dropbtn">Cadastrar</button>
+                <div class="dropdown-content">
+                    <a href="cadastraCliente.jsp" target="janela_prog">Cliente</a>
+                    <a href="cadastraTipoPagamento.jsp" target="janela_prog">Tipo Pagamento</a>
+                    <a href="cadastraVeiculo.jsp" target="janela_prog">Veículo</a>
+                    <a href="cadastraLocacao.jsp" target="janela_prog">Locação</a>
+                </div>
+            </div> 
+            
+            <!-- CONSULTAS -->
+            <div class="dropdown">
+                <button class="dropbtn"> Consultar</button>
+                <div class="dropdown-content">
+                    <a href="consultaCliente.jsp" target="janela_prog">Cliente</a>
+                    <a href="consultaTipoPagamento.jsp" target="janela_prog">Tipo Pagamento</a>
+                    <a href="consultaVeiculo.jsp" target="janela_prog">Veículo</a>
+                    <a href="consultaLocacao.jsp" target="janela_prog">Locação</a>
+                </div>
+            </div>   
+        </div>
+        
+        <!-- IFRAME ONDE ABREM AS TELAS DO SISTEMA -->
+        <div class="main">
+            <iframe name="janela_prog" element.mozRequestFullScreen()></iframe>
+        </div>
+    </body>
+</html>
